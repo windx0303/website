@@ -1,0 +1,24 @@
+ol.conf-list, ol.journal-list, ol.thesis-list{
+	color: black;
+	/*text-align: left;*/
+	text-align: justify;
+text-justify:inter-ideograph;
+	list-style: decimal;
+	width: 90%;
+	margin: 0 auto;
+}
+
+li{
+	margin: 20px 10px 20px 10px;
+}
+
+span.highlight{
+	color: black;
+	font-weight: 500;
+}
+
+.left-align{
+	color: black;
+	text-align: justify;
+	text-justify:inter-ideograph;
+}
