@@ -17,6 +17,11 @@ span.highlight{
 	font-weight: 500;
 }
 
+h3.highlight{
+	color: black;
+	font-weight: 600;
+}
+
 .left-align{
 	color: black;
 	text-align: justify;
