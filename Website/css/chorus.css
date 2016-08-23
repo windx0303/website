@@ -153,3 +153,7 @@ h2{
 .paper-title, .conf-abbr{
 	font-weight: bold;
 }
+
+.media-cover{
+	font-weight: bold;
+}
