@@ -1,3 +1,13 @@
+.best-paper{
+	color: red;
+}
+
+.publication-item{
+	padding-left: 10px;
+	margin-top: 20px;
+	/*margin-bottom: 20px;*/
+}
+
 #brand-name{
 	font-weight: bold;
 	font-size: 32px;
@@ -134,6 +144,6 @@ h2{
 	margin-left: 20px;
 }
 
-.paper-title{
+.paper-title, .conf-abbr{
 	font-weight: bold;
 }
