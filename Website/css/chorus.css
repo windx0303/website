@@ -1,3 +1,11 @@
+.title-call{
+	font-size: 18px;
+	padding: 10px 10px 10px 20px;
+	background-color: #5bc0de;
+	color: white;
+	
+}
+
 .news-li{
 	margin-bottom: 10px;
 	padding-left: 10px;
