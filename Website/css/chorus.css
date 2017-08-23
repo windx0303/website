@@ -163,5 +163,6 @@ h2{
 }
 
 .media-cover{
-	font-weight: bold;
+	/*font-weight: bold;*/
+	color: blue;
 }
