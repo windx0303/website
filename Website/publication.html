@@ -22,6 +22,7 @@
     <link href="css/small-business.css" rel="stylesheet">
     <link href="css/chorus.css" rel="stylesheet">
     <link href="css/polish.css" rel="stylesheet">
+    <link href="css/pub-tags.css" rel="stylesheet">
 
 	<link href="font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
@@ -63,6 +64,8 @@
 		
 		
 		
+		<div id="tag-filter" class="tag-filter"></div>
+
 		<div id="representative-papers" class="row">
         	<div class="col-md-12">
 				<h2>Representative Papers</h2>
@@ -70,7 +73,7 @@
 				<div class="rep-group rep-group-1">
 				<h4 class="rep-theme">I build human-AI systems that do what neither people nor AI can achieve alone.</h4>
 				<ul class='faq-text'>
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="system">
 						<div class="row rep-paper">
 							<div class="col-md-3"><a href="images/papers/codebook.png" target="_blank"><img class="rep-fig" src="images/papers/codebook.png" alt="Codebook revision workflow" loading="lazy"></a></div>
 							<div class="col-md-9">
@@ -80,7 +83,7 @@
 							</div>
 						</div>
 					</li>
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="system">
 						<div class="row rep-paper">
 							<div class="col-md-3"><a href="images/papers/convxai.png" target="_blank"><img class="rep-fig" src="images/papers/convxai.png" alt="ConvXAI system overview" loading="lazy"></a></div>
 							<div class="col-md-9">
@@ -90,7 +93,7 @@
 							</div>
 						</div>
 					</li>
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="system">
 						<div class="row rep-paper">
 							<div class="col-md-3"><a href="images/papers/heteroglossia.png" target="_blank"><img class="rep-fig" src="images/papers/heteroglossia.png" alt="Heteroglossia role-play ideation overview" loading="lazy"></a></div>
 							<div class="col-md-9">
@@ -100,7 +103,7 @@
 							</div>
 						</div>
 					</li>
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="system">
 						<div class="row rep-paper">
 							<div class="col-md-3"><a href="images/papers/smell-pittsburgh.png" target="_blank"><img class="rep-fig" src="images/papers/smell-pittsburgh.png" alt="Smell Pittsburgh app interface" loading="lazy"></a></div>
 							<div class="col-md-9">
@@ -110,7 +113,7 @@
 							</div>
 						</div>
 					</li>
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="system">
 						<div class="row rep-paper">
 							<div class="col-md-3"><a href="images/papers/evorus.png" target="_blank"><img class="rep-fig" src="images/papers/evorus.png" alt="Evorus framework overview" loading="lazy"></a></div>
 							<div class="col-md-9">
@@ -126,7 +129,7 @@
 				<div class="rep-group rep-group-2">
 				<h4 class="rep-theme">I create corpora, datasets, and benchmarks that help AI serve people better.</h4>
 				<ul class='faq-text'>
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="system dataset evaluate">
 						<div class="row rep-paper">
 							<div class="col-md-3"><a href="images/papers/gpt4-annotation.png" target="_blank"><img class="rep-fig" src="images/papers/gpt4-annotation.png" alt="Accuracy of crowd workers compared with GPT-4" loading="lazy"></a></div>
 							<div class="col-md-9">
@@ -136,7 +139,7 @@
 							</div>
 						</div>
 					</li>
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="dataset">
 						<div class="row rep-paper">
 							<div class="col-md-3"><a href="images/papers/finqa.png" target="_blank"><img class="rep-fig" src="images/papers/finqa.png" alt="FinQA example" loading="lazy"></a></div>
 							<div class="col-md-9">
@@ -146,7 +149,7 @@
 							</div>
 						</div>
 					</li>
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="dataset">
 						<div class="row rep-paper">
 							<div class="col-md-3"><a href="images/papers/scicap.png" target="_blank"><img class="rep-fig" src="images/papers/scicap.png" alt="SciCap figure captioning overview" loading="lazy"></a></div>
 							<div class="col-md-9">
@@ -156,7 +159,7 @@
 							</div>
 						</div>
 					</li>
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="dataset">
 						<div class="row rep-paper">
 							<div class="col-md-3"><a href="images/papers/coda19.jpg" target="_blank"><img class="rep-fig" src="images/papers/coda19.jpg" alt="CODA-19 annotation example" loading="lazy"></a></div>
 							<div class="col-md-9">
@@ -166,7 +169,7 @@
 							</div>
 						</div>
 					</li>
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="dataset">
 						<div class="row rep-paper">
 							<div class="col-md-3"><a href="images/papers/vist.png" target="_blank"><img class="rep-fig" src="images/papers/vist.png" alt="Visual Storytelling example" loading="lazy"></a></div>
 							<div class="col-md-9">
@@ -182,7 +185,7 @@
 				<div class="rep-group rep-group-3">
 				<h4 class="rep-theme">I study how people use technology to communicate and work together.</h4>
 				<ul class='faq-text'>
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="people dataset">
 						<div class="row rep-paper">
 							<div class="col-md-3"><a href="images/papers/codedlang.png" target="_blank"><img class="rep-fig" src="images/papers/codedlang.png" alt="Coded language example" loading="lazy"></a></div>
 							<div class="col-md-9">
@@ -192,7 +195,7 @@
 							</div>
 						</div>
 					</li>
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="people">
 						<div class="row rep-paper">
 							<div class="col-md-3"><a href="images/papers/rednote.png" target="_blank"><img class="rep-fig" src="images/papers/rednote.png" alt="Evolution of the #BSF hashtag on rednote" loading="lazy"></a></div>
 							<div class="col-md-9">
@@ -202,7 +205,7 @@
 							</div>
 						</div>
 					</li>
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="people">
 						<div class="row rep-paper">
 							<div class="col-md-3"><a href="images/papers/convlength.png" target="_blank"><img class="rep-fig" src="images/papers/convlength.png" alt="Satisfaction by conversation length" loading="lazy"></a></div>
 							<div class="col-md-9">
@@ -314,7 +317,7 @@
             		<ol class='faq-text' reversed>
 
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="system dataset evaluate">
 							<div class="paper-title">If in a Crowdsourced Data Annotation Pipeline, a GPT-4</div>
 							<div>Zeyu He, Chieh-Yang Huang, Chien-Kuang Cornelia Ding, Shaurya Rohatgi, <span class='black-font'>Ting-Hao K. Huang</span>.</div>
 
@@ -326,7 +329,7 @@
 
 						</li>
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="dataset model">
 							<div class="paper-title">Location-Aware Visual Question Generation with Lightweight Models</div>
 
 							<div>Nicholas Collin Suwono, Justin Chih-Yao Chen, Tun Min Hung, <span class='black-font'>Ting-Hao K. Huang</span>, I-Bin Liao, Yung-Hui Li, Lun-Wei Ku, Shao-Hua Sun.</div>
@@ -347,7 +350,7 @@
 						</li>
 
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="evaluate">
 							<div class="paper-title">GPT-4 as an Effective Zero-Shot Evaluator for Scientific Figure Captions</div>
 							<div>Ting-Yao Hsu, Chieh-Yang Huang, Ryan Rossi, Sungchul Kim, C. Lee Giles, <span class='black-font'>Ting-Hao K. Huang</span>.</div>
 							
@@ -366,7 +369,7 @@
 
 
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="people evaluate">
 							<div class="paper-title">Does Human Collaboration Enhance the Accuracy of Identifying LLM-Generated Deepfake Texts?</div>
 							<div>Adaku Uchendu, Jooyoung Lee, Hua Shen, Thai Le, <span class='black-font'>Ting-Hao K. Huang</span>, Dongwon Lee.</div>
 							
@@ -383,7 +386,7 @@
 						</li>
 
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="model">
 							<div class="paper-title">Summaries as Captions: Generating Figure Captions for Scientific Documents with Automated Text Summarization</div>
 							<div>Chieh-Yang Huang, Ting-Yao Hsu, Ryan Rossi, Ani Nenkova, Sungchul Kim, Gromit Yeuk-Yin Chan, Eunyee Koh, Clyde Lee Giles, <span class='black-font'>Ting-Hao K. Huang</span>.</div>
 							<div>
@@ -399,7 +402,7 @@
 							
 						</li>
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="people evaluate">
 							<div class="paper-title">Unmasking Nationality Bias: A Study of Human Perception of Nationalities in AI-Generated Articles</div>
 							<div>Pranav Narayanan Venkit, Sanjana Gautam, Ruchi Panchanadikar, <span class='black-font'>Ting-Hao K. Huang</span> and Shomir Wilson.</div>
 							
@@ -427,7 +430,7 @@
 						-->
 						</li>
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="evaluate">
 							<div class="paper-title">Nationality Bias in Text Generation</div>
 							<div>Pranav Narayanan Venkit, Sanjana Gautam, Ruchi Panchanadikar, <span class='black-font'>Ting-Hao K. Huang</span> and Shomir Wilson.</div>
 							
@@ -452,7 +455,7 @@
 						-->
 						</li>
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="dataset model">
 							<div class="paper-title">Multi-VQG: Generating Engaging Questions for Multiple Images</div>
 							<div>Min-Hsuan Yeh, Vincent Foster Chen, <span class='black-font'>Ting-Hao K. Huang</span>, Lun-Wei Ku.</div>
 							
@@ -480,7 +483,7 @@
 						-->
 						</li>
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="people evaluate">
 							<div class="paper-title">Are Shortest Rationales the Best Explanations For Human Understanding?</div>
 							<div>Hua Shen, Tongshuang Wu, Wenbo Guo, <span class='black-font'>Ting-Hao K. Huang</span>.</div>
 							 
@@ -498,7 +501,7 @@
 							</div>
 						</li>
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="dataset model">
 							<div class="paper-title">Learning to Rank Visual Stories From Human Ranking Data.</div>
 							<div>Chi-Yang Hsu, Yun-Wei Chu, Vincent Chen, Kuan-Chieh Lo, Chacha Chen, <span class='black-font'>Ting-Hao K. Huang</span>, Lun-Wei Ku.</div>
 							 
@@ -515,7 +518,7 @@
 							</div>
 						</li>
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="dataset">
 							<div class="paper-title">SciCap: Generating Captions for Scientific Figures.</div>
 							<div>Ting-Yao (Edward) Hsu, C. Lee Giles, and <span class='black-font'>Ting-Hao K. Huang</span>.</div>
 							 
@@ -552,7 +555,7 @@
 
 
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="dataset">
 							<div class="paper-title">FinQA: A Dataset of Numerical Reasoning over Financial Data.</div>
 
 							<div>Zhiyu Chen, Wenhu Chen, Charese Smiley, Sameena Shah, Iana Borova, Dylan Langdon, Reema Moussa, Matt Beane, <span class='black-font'>Ting-Hao K. Huang</span>, Bryan R. Routledge, and William Yang Wang.</div>
@@ -587,7 +590,7 @@
 						</li>
 						
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="model">
 							<div class="paper-title">ABCD: A Graph Framework to Convert Complex Sentences to a Covering Set of Simple Sentences.</div>
 							<div>Yanjun Gao, <span class='black-font'>Ting-Hao K. Huang</span> and Rebecca J. Passonneau.</div>
 							 
@@ -617,7 +620,7 @@
 						</li>
 
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="model">
 							<div class="paper-title">Plot and Rework: Modeling Storylines for Visual Storytelling</div>
 							<div>Chi-Yang Hsu, Yun-Wei Chu, <span class='black-font'>Ting-Hao K. Huang</span> and Lun-Wei Ku.</div>
 							<div>
@@ -651,7 +654,7 @@
 
 
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="model">
 							<div class="paper-title">Semantic Frame Forecast</div>
 							<div>Chieh-Yang Huang, <span class='black-font'>Ting-Hao K. Huang</span></div>
 							<div>
@@ -680,7 +683,7 @@
 
 
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="dataset model">
 							<div class="paper-title">Project RISE: Recognizing Industrial Smoke Emissions</div>
 							<div>Yen-Chia Hsu, <span class='black-font'>Ting-Hao K. Huang</span>, Ting-Yao Hu, Paul Dille, Sean Prendi, Ryan Hoffman, Anastasia Tsuhlares, Randy Sargent, Illah Nourbakhsh</div>
 							<div>
@@ -703,7 +706,7 @@
 						</li>
 
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="model">
 							<div class="paper-title">Assessing the Helpfulness of Learning Materials with Inference-Based Learner-Like Agent</div>
 							<div>
 								Yun-Hsuan Jen, Chieh-Yang Huang, Mei-Hua Chen, <span class='black-font'>Ting-Hao K. Huang</span>, Lun-Wei Ku
@@ -722,7 +725,7 @@
 						</li>
 
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="people evaluate">
 							<div class="paper-title">How Useful Are the Machine-Generated Interpretations to General Users? A Human Evaluation on Guessing the Incorrectly Predicted Labels</div>
 							<div>
 								Hua Shen, <span class='black-font'>Ting-Hao K. Huang</span>
@@ -753,7 +756,7 @@
 						</li>
 
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="system">
 							<div class="paper-title">Heteroglossia: In-Situ Story Ideation with the Crowd</div>
 							<div>
 								Chieh-Yang Huang, Shih-Hong Huang, <span class='black-font'>Ting-Hao K. Huang</span>
@@ -793,7 +796,7 @@
 					</li>
 
 					
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="model">
 
 
 								
@@ -826,7 +829,7 @@
 
 
 
-							<li class='publication-item'>
+							<li class='publication-item' data-tags="dataset people">
             			
 									<div class="paper-title">Visual Story Post-Editing</div>
 									<div>
@@ -854,7 +857,7 @@
 							</li>
 
 					
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="system">
             			
 						
 							
@@ -892,7 +895,7 @@
 					</li>
 
 
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="dataset">
             			
             			
             					<div class="paper-title">EmotionLines: An Emotion Corpus of Multi-Party Conversations</div>
@@ -914,7 +917,7 @@
             					</div>
             			</li>
             	
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="system">
             			
             			
             					<div class="paper-title">Evorus: A Crowd-Powered Conversational Assistant Built to Automate Itself Over Time</div>
@@ -961,7 +964,7 @@
             			</li>
             		
             		
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="system">
             					<div class="paper-title">A 10-Month-Long Deployment Study of On-Demand Recruiting for Low-Latency Crowdsourcing</div>
             					<div>
             					<span class='black-font'>Ting-Hao K. Huang</span>, Jeffrey P. Bigham.
@@ -977,7 +980,7 @@
             					</div>
             			</li>
             		
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="system">
             					<div class="paper-title">WearMail: On-the-Go Access to Information in Your Email with a Privacy-Preserving Human Computation Workflow</div>
             					<div>
             					Saiganesh Swaminathan, Raymond Fok, Fanglin Chen, <span class='black-font'>Ting-Hao K. Huang</span>, Irene Lin, Rohan Jadvani, Walter Lasecki, Jeffrey Bigham.
@@ -991,7 +994,7 @@
             					</div>
             			</li>
             		
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="system">
             					<div class="paper-title">Real-time On-Demand Crowd-powered Entity Extraction</div>
             					<div><span class='black-font'>Ting-Hao K. Huang</span>, Yun-Nung Chen, Jeffrey P. Bigham.</div>
             					<div>
@@ -1007,7 +1010,7 @@
             			</li>
             		
             		
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="system people">
             					<div class="paper-title">"Is there anything else I can help you with?": Challenges in Deploying an On-Demand Crowd-Powered Conversational Agent</div>
             					<div><span class='black-font'>Ting-Hao K. Huang</span>, Walter S. Lasecki, Amos Azaria, Jeffrey P. Bigham.</div>
             					<div>
@@ -1027,7 +1030,7 @@
             						<a href="http://www.slideshare.net/TingHaoHuang1/is-there-anything-else-i-can-help-you-with-challenges-in-deploying-an-ondemand-crowdpowered-conversational-agent-68261884" target="_blank">[Slides]</a>
             					</div>
             			</li>
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="dataset">
             				<div class="paper-title">Visual Storytelling</div>
             					<div><span class='black-font'>Ting-Hao K. Huang</span>*, Francis Ferraro*, Nasrin Mostafazadeh, Ishan Misra, Jacob Devlin, Aishwarya Agrawal, Ross Girshick, Xiaodong He, Pushmeet Kohli, Dhruv Batra, Larry Zitnick, Devi Parikh, Lucy Vanderwende, Michel Galley and Margaret Mitchell. (*: Co-first author.)</div>
             					<div>In proc. the 15th Annual Conference of the North American Chapter of the Association for Computational Linguistics (<span class='conf-abbr'>NAACL 2016</span>), June, 2016, San Diego, CA, USA.
@@ -1056,7 +1059,7 @@
             			
             			
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="system">
             			
             				<div class="paper-title">Guardian: A Crowd-Powered Spoken Dialog System for Web APIs</div>
             					
@@ -1073,7 +1076,7 @@
             				
             			</li>
             		
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="dataset">
             			
             				<div class="paper-title">A Survey of Current Datasets for Vision and Language Research</div>
             					
@@ -1095,7 +1098,7 @@
             			</li>
             		
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="model">
             			
             					<div class="paper-title">Domain Dependent Word Polarity Analysis for Sentiment Classification (領域相關詞彙極性分析及文件情緒分類之研究)</div>            					
             					<div>
@@ -1110,7 +1113,7 @@
             					
             			</li>
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="model">
             			
             					<div class="paper-title">Predicting Opinion Dependency Relations for Opinion Analysis</div>            					
             					<div>
@@ -1128,7 +1131,7 @@
             					
             			</li>
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="dataset model">
             			
             					<div class="paper-title">Predicting Morphological Types of Chinese Bi-Character Words by Machine Learning Approaches</div>            					
             					<div>
@@ -1148,7 +1151,7 @@
             			</li>
             		
             		
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="dataset">
             			
             					<div class="paper-title">Construction of a Chinese Opinion Treebank</div>            					
             					<div>
@@ -1165,7 +1168,7 @@
             					
             			</li>
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="model">
             			
             					<div class="paper-title">Using Morphological and Syntactic Structures for Chinese Opinion Analysis</div>            					
             					<div>
@@ -1194,7 +1197,7 @@
         		
         		<ol class='faq-text' reversed>
 
-					<li class="publication-item">
+					<li class='publication-item' data-tags="system">
 						<div class="paper-title">Empowering Local Communities Using Artificial Intelligence</div>
 						<div>Yen-Chia Hsu, <span class='black-font'>Ting-Hao K. Huang</span>, Himanshu Verma, Andrea Mauri, Illah Nourbakhsh, Alessandro Bozzon.</div>
 						<div>Patterns. (Accepted)</div>
@@ -1211,7 +1214,7 @@
 					</li>
 
 
-					<li class="publication-item">
+					<li class='publication-item' data-tags="system">
 						<div class="paper-title">Smell Pittsburgh: Engaging Community Citizen Science for Air Quality</div>
 						<div>Yen-Chia Hsu, Jennifer Cross, Paul Dille, Michael Tasota, Beatrice Dias, Randy Sargent, <span class='black-font'>Ting-Hao K. Huang</span>, Illah Nourbakhsh.</div>
 
@@ -1228,7 +1231,7 @@
 						</div>
 					</li>
 
-						<li class="publication-item">
+						<li class='publication-item' data-tags="system">
 							<div class="paper-title">InstructableCrowd: Creating IF-THEN Rules for Smartphones via Conversations with the Crowd</div>
 							<div><span class='black-font'>Ting-Hao K. Huang</span>, Amos Azaria, Oscar J. Romero, Jeffrey P. Bigham.</div>
 							<div>Human Computation (2019) 6:1:113-146. ISSN: 2330-8001, DOI: 10.15346/hc.v6i1.7.</div>
@@ -1240,7 +1243,7 @@
             				</div>
 						</li>
         		
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="model">
             					<div class="paper-title">Social Metaphor Detection via Topical Analysis</div>
             					<div><span class='black-font'>Ting-Hao K. Huang.</span></div>
             					<div>
@@ -1255,7 +1258,7 @@
             			</li>
             			
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="model">
             					<div class="paper-title">Domain Dependent Word Polarity Analysis for Sentiment Classification (領域相關詞彙極性分析及文件情緒分類之研究)</div>
             					<div>Ho-Cheng Yu, <span class='black-font'>Ting-Hao K. Huang</span>, and Hsin-Hsi Chen.</div>
             					
@@ -1283,7 +1286,7 @@
         		
         		<ol class='faq-text' reversed>
 
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="people">
             			
             				
 						<div class="paper-title">Empathy-Centric Design At Scale</div>
@@ -1303,7 +1306,7 @@
 					</li>
 
 						
-            		<li class='publication-item'>
+            		<li class='publication-item' data-tags="system">
             			
             				
 						<div class="paper-title">On Automating Conversations</div>
@@ -1320,7 +1323,7 @@
 					</li>
 
 
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="system">
 				
 					
 						<div class="paper-title">On Using Chatbots to Promote Smoking Cessation Among Adolescents of Low Socioeconomic Status.</div>
@@ -1353,7 +1356,7 @@
 
 
 
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="dataset">
 						<div class="paper-title">Good Data, Large Data, or No Data? Comparing Three Approaches in Developing Research Aspect Classifiers for Biomedical Papers</div>
 						<div>Shreya Chandrasekhar, Chieh-Yang Huang, and <span class='black-font'>Ting-Hao K. Huang</span>.</div>
 						<div><a href="https://aclweb.org/aclwiki/BioNLP_Workshop" target="_blank">BioNLP Workshop 2023, co-located with ACL 2023</a>. July 13, 2023. Toronto, Canada.</div>
@@ -1368,7 +1371,7 @@
 					</li>
 
 
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="system people">
 						<div class="paper-title">Conveying the Predicted Future to Users: A Case Study of Story Plot Prediction</div>
 						<div>Chieh-Yang Huang, Saniya Naphade, Kavya Laalasa Karanam, and <span class='black-font'>Ting-Hao K. Huang</span>.</div>
 						<div><a href="https://creativeai-ws.github.io/" target="_blank">AAAI 2023 Workshop of Creative AI Across Modalities</a>. February 13th, 2023. Washington, D.C.</div>
@@ -1385,7 +1388,7 @@
 					</li>
 
 
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="evaluate">
 						<div class="paper-title">Are GANs Biased? Evaluating GAN-Generated Facial Images via Crowdsourcing.</div>
 						<div>Hangzhi Guo, Lizhen Zhu, and <span class='black-font'>Ting-Hao K. Huang</span>.</div>
 						<div><a href="https://humaneval-workshop.github.io/" target="_blank">NeurIPS 2022 Workshop on Human Evaluation of Generative Models</a>. December 3, 2022. New Orleans.</div>
@@ -1399,7 +1402,7 @@
 					
 
 
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="model">
 						<div class="paper-title">Learning Clause Representation from Dependency-Anchor Graph for Connective Prediction.</div>
 						<div>Yanjun Gao, <span class='black-font'>Ting-Hao K. Huang</span>, and Rebecca J. Passonneau.</div>
 						<div><a href="https://sites.google.com/view/textgraphs2021" target="_blank">Workshop of Graph-based Algorithms for Natural Language Processing (TextGraphs-15)</a> at NAACL 2021. June 11, 2021. Virtual Event.</div>
@@ -1412,7 +1415,7 @@
 						</div>
 					</li>
 
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="people evaluate">
 						<div class="paper-title">Explaining the Road Not Taken</div>
 						<div>Shen Hua, <span class='black-font'>Ting-Hao K. Huang</span></div>
 						<div><a href="https://hcxai.jimdosite.com/" target="_blank">CHI 2021 Workshop on Operationalizing Human-centered Perspectives in Explainable AI (HCXAI2021)</a>. May 8-9, 2021. Virtual Event.</div>
@@ -1424,7 +1427,7 @@
 
 
 					
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="people">
 						<div class="paper-title">What Makes A Good Reference Manager? A Quantitative Analysis of Bibliography Management Applications.</div>
 						<div>*Tongan Cai, *Chacha Chen, <span class='black-font'>Ting-Hao K. Huang</span>, Frank E. Ritter.</div>
 						
@@ -1440,7 +1443,7 @@
 					</li>
 
 
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="model">
 						<div class="paper-title">Let's Talk! Striking Up Conversations via Conversational Visual Question Generation</div>
 						<div><span class='black-font'>Shih-Han Chan, Tsai-Lun Yang, Yun-Wei Chu, Chi-Yang Hsu, <span class='black-font'>Ting-Hao K. Huang</span>, Yu-Shian Chiu and Lun-Wei Ku</div>
 						
@@ -1459,7 +1462,7 @@
 
 
 						
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="dataset">
 						<div class="paper-title">CODA-19: Using a Non-Expert Crowd to Annotate Research Aspects on 10,000+ Abstracts in the COVID-19 Open Research Dataset</div>
 						<div><span class='black-font'>Ting-Hao K. Huang</span>, Chieh-Yang Huang, Chien-Kuang Cornelia Ding, Yen-Chia Hsu, C. Lee Giles</div>
 						<div >
@@ -1480,7 +1483,7 @@
 					</li>
 
         		
-        			<li class='publication-item'>
+        			<li class='publication-item' data-tags="system">
             			
             				
             				<div class="paper-title">Epistemo: A Crowd-Powered Conversational Search Interface</div>
@@ -1495,7 +1498,7 @@
             					
             			</li>
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="system people">
             			
             				<div class="paper-title">Challenges in Providing Automatic Affective Feedback in Instant Messaging Applications</div>
             					<div>Chieh-Yang Huang, <span class='black-font'>Ting-Hao K. Huang</span>, Lun-Wei Ku.</div>
@@ -1508,7 +1511,7 @@
             					
             			</li>
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="system">
             			
             				<div class="paper-title">Crowd-Powered Conversational Agents</div>
             					<div><span class='black-font'>Ting-Hao K. Huang</span>.</div>
@@ -1519,7 +1522,7 @@
             				
             			</li>
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="dataset model">
             			
             				<div class="paper-title">ACBiMA: Advanced Chinese Bi-Character Word Morphological Analyzer</div>
             					
@@ -1544,7 +1547,7 @@
             					
             			</li>
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="model">
             			
             				<div class="paper-title">Social Metaphor Detection via Topical Analysis</div>            					
             					<div>
@@ -1577,7 +1580,7 @@
         		
         		<ol class='faq-text' reversed>
 				
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="system">
             			
             				
 						<div class="paper-title">ConvXAI : Delivering Heterogeneous AI Explanations via Conversations to Support Human-AI Scientific Writing.</div>
@@ -1606,7 +1609,7 @@
 
 
 
-					<li class='publication-item'>
+					<li class='publication-item' data-tags="system">
             			
             				
 						<div class="paper-title">Stretch-VST: Getting Flexible With Visual Stories.</div>
@@ -1631,7 +1634,7 @@
 					</li>
 
 					
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="system">
             			
             				
 								<div class="paper-title">Dixit: Interactive Visual Storytelling via Term Manipulation.</div>
@@ -1654,7 +1657,7 @@
 									
 							</li>
 
-        			<li class='publication-item'>
+        			<li class='publication-item' data-tags="system">
             			
             				
             				<div class="paper-title">MoodSwipe: A Soft Keyboard that Suggests Messages Based on User-Specified Emotions</div>
@@ -1668,7 +1671,7 @@
             					
             			</li>
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="system people">
             			
             				<div class="paper-title">Sensing Emotions in Text Messages: An Application and Deployment Study of EmotionPush</div>
             					<div>Shih-Ming Wang, Chun-Hui Li, Yu-Chun Lo, <span class='black-font'>Ting-Hao K. Huang</span>, Lun-Wei Ku.</div>
@@ -1684,7 +1687,7 @@
             				
             			</li>
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="model">
             			
             					<div class="paper-title">Modeling Pollyanna Phenomena in Chinese Sentiment Analysis</div>            					
             					<div>
@@ -1714,7 +1717,7 @@
         			<ol class='faq-text' reversed>
 
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="people">
             			
             				
 							<div class="paper-title">What Types of Questions Require Conversation to Answer? A Case Study of AskReddit Questions.</div>
@@ -1743,7 +1746,7 @@
 						</li>
 
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="system">
             			
             				
 							<div class="paper-title">Too Slow to Be Useful? On Incorporating Humans in the Loop of Smart Speakers.</div>
@@ -1760,7 +1763,7 @@
 							
 						</li>
 
-						<li class='publication-item'>
+						<li class='publication-item' data-tags="people">
             			
             				
 							<div class="paper-title">Using Tweets to Assess Mental Well-being of Essential Workers During the COVID-19 Pandemic.</div>
@@ -1783,7 +1786,7 @@
 						</li>
 
 
-							<li class='publication-item'>
+							<li class='publication-item' data-tags="people">
             			
             				
 									<div class="paper-title">On How Users Edit Computer-Generated Visual Stories.</div>
@@ -1808,7 +1811,7 @@
 								</li>
 
         		
-        				<li class='publication-item'>
+        				<li class='publication-item' data-tags="people">
             			
             				
             				<div class="paper-title">On How Deaf People Might Use Speech to Control Devices</div>
@@ -1826,7 +1829,7 @@
             					</div>            					
             			</li>
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="system">
             			
             				
             				<div class="paper-title">Evorus: A Crowd-powered Conversational Assistant That Automates Itself Over Time</div>
@@ -1839,7 +1842,7 @@
             					
             			</li>
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="system">
             			
             				<div class="paper-title">InstructableCrowd: Creating IF-THEN Rules via Conversations with the Crowd</div>
             					<div><span class='black-font'>Ting-Hao K. Huang</span>, Amos Azaria, Jeffrey P Bigham.</div>
@@ -1859,7 +1862,7 @@
             				
             			</li>
             			
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="system">
             			
             				<div class="paper-title">Combining Non-Expert and Expert Crowd Work to Convert Web APIs to Dialog Systems</div>            					
             					<div>
@@ -1892,7 +1895,7 @@
         		
         		<ol class='faq-text' reversed>
         		
-        			<li class='publication-item'>
+        			<li class='publication-item' data-tags="system">
             					<div class="paper-title">On replacing humans with human simulators in human-in-the-loop systems built to interact with humans</div>
             					<div>Shih-Hong Huang, <span class='black-font'>Ting-Hao K. Huang.</span></div>
             					<div>
@@ -1925,7 +1928,7 @@
         		
         		<ol class='faq-text' reversed>
         		
-        			<li class='publication-item'>
+        			<li class='publication-item' data-tags="system">
             					<div class="paper-title">A Crowd-Powered Conversational Assistant That Automates Itself Over Time</div>
             					<div><span class='black-font'>Ting-Hao K. Huang.</span></div>
             					<div>
@@ -1937,7 +1940,7 @@
             					</div>
             			</li>
         		
-            			<li class='publication-item'>
+            			<li class='publication-item' data-tags="model">
             					<div class="paper-title">Automatic Extraction of Intra- and Inter- word Syntactic Structures for Chinese Opinion Analysis (應用於中文意見分析之詞內暨詞間語法結構自動擷取研究)</div>
             					<div><span class='black-font'>Ting-Hao K. Huang.</span></div>
             					<div>
@@ -2017,6 +2020,8 @@
     <!-- Bootstrap Core JavaScript -->
 
     <script src="js/bootstrap-5.3.8.bundle.min.js"></script>
+
+    <script src="js/pub-tags.js"></script>
 </body>
 
 </html>

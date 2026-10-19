@@ -1,0 +1,70 @@
+/* Topic labels and filter bar for the Publications page */
+
+.tag-filter{
+	margin: 4px 0 20px 0;
+	padding: 12px 16px;
+	background: #fafafa;
+	border: 1px solid #eee;
+	border-radius: 6px;
+}
+
+.tag-filter .tag-filter-label{
+	font-weight: bold;
+	margin-right: 8px;
+}
+
+.tag-filter button{
+	margin: 2px 4px 2px 0;
+	padding: 4px 12px;
+	font-size: 14px;
+	border-radius: 16px;
+	border: 1px solid #ccc;
+	background: #fff;
+	color: #333;
+	cursor: pointer;
+}
+
+.tag-filter button.tag-btn-system{ border-color: #9fc9e6; }
+.tag-filter button.tag-btn-dataset{ border-color: #b5d6a4; }
+.tag-filter button.tag-btn-model{ border-color: #c9bde6; }
+.tag-filter button.tag-btn-evaluate{ border-color: #e8b9c2; }
+.tag-filter button.tag-btn-people{ border-color: #e6cf8f; }
+
+.tag-filter button.active.tag-btn-all{ background: #555; border-color: #555; color: #fff; }
+.tag-filter button.active.tag-btn-system{ background: #d4e9f5; }
+.tag-filter button.active.tag-btn-dataset{ background: #dcebd3; }
+.tag-filter button.active.tag-btn-model{ background: #e6e0f3; }
+.tag-filter button.active.tag-btn-evaluate{ background: #f6dfe3; }
+.tag-filter button.active.tag-btn-people{ background: #f3e6c4; }
+
+.tag-filter .tag-count{
+	margin-left: 8px;
+	color: #777;
+	font-size: 13px;
+}
+
+/* Labels shown on each paper */
+.paper-tags{
+	margin-top: 4px;
+}
+
+.paper-tag{
+	display: inline-block;
+	font-size: 11px;
+	line-height: 1.6;
+	padding: 0 7px;
+	margin-right: 4px;
+	border-radius: 9px;
+	color: #444;
+	cursor: pointer;
+}
+
+.paper-tag-system{ background: #d4e9f5; }
+.paper-tag-dataset{ background: #dcebd3; }
+.paper-tag-model{ background: #e6e0f3; }
+.paper-tag-evaluate{ background: #f6dfe3; }
+.paper-tag-people{ background: #f3e6c4; }
+
+.tag-hidden{
+	display: none !important;
+}
