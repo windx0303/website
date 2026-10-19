@@ -1,0 +1,60 @@
+/* Subtle polish on top of the classic look: spacing, readability and small
+   details only. Colors and layout are unchanged. Remove the <link> to turn off. */
+
+body{
+	line-height: 1.55;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Navbar: a hairline so it separates from content when scrolling */
+#chorus-nav{
+	border-bottom: 1px solid #eee;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, .04);
+}
+
+/* Name and section headings */
+#brand-name{
+	letter-spacing: -.3px;
+}
+
+#wrap h3{
+	font-weight: 600;
+	margin-top: 24px;
+	margin-bottom: 14px;
+}
+
+hr{
+	margin: 26px 0;
+}
+
+/* Profile photo: soft depth */
+#profile-photo{
+	box-shadow: 0 4px 14px rgba(0, 0, 0, .12);
+}
+
+/* Lists: a little more air between items */
+#wrap .faq-text li,
+#wrap .col-md-12 > ul > li{
+	margin-bottom: 7px;
+}
+
+/* News and travel dates line up in a column */
+#wrap .faq-text li > .badge:first-child{
+	display: inline-block;
+	min-width: 70px;
+	text-align: center;
+	margin-right: 4px;
+	vertical-align: 1px;
+}
+
+/* Notice boxes */
+.alert{
+	border-radius: 6px;
+}
+
+/* Footer */
+footer{
+	border-top: 1px solid #eee;
+	margin-top: 20px;
+}
