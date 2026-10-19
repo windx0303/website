@@ -236,6 +236,18 @@ li.chorus-nav{
 	margin-bottom: 8px;
 }
 
+.rep-tldr{
+	margin-top: 6px;
+	font-size: 13px;
+	line-height: 1.5;
+	color: #555;
+}
+
+.tldr-label{
+	margin-right: 4px;
+	vertical-align: 1px;
+}
+
 .rep-fig{
 	display: block;
 	width: 100%;
