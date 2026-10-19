@@ -15,7 +15,8 @@
 	<link rel="apple-touch-icon" href="icon/apple-touch-icon-cat.png" />
 	
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-5.3.8.min.css" rel="stylesheet">
+    <link href="css/legacy-look.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/small-business.css" rel="stylesheet">
@@ -24,8 +25,6 @@
 	<link href="font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
             
-    <script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	
 	<!--  
 	<script src="js/index.js"></script>
@@ -34,36 +33,22 @@
 
 <body>
 
-	<nav id="chorus-nav" class="navbar navbar-default navbar-fixed-top">
+	<nav id="chorus-nav" class="navbar navbar-expand-lg fixed-top">
 		<div class="container">
-			
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            		<span class="sr-only">Toggle navigation</span>
-            		<span class="icon-bar"></span>
-            		<span class="icon-bar"></span>
-            		<span class="icon-bar"></span>
-          		</button>
-				<h3>Ting-Hao 'Kenneth' Huang</h3>
+			<a class="navbar-brand" href="index.html">Ting-Hao 'Kenneth' Huang</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul id="navbar-ul" class="navbar-nav ms-auto">
+					<li class="nav-item chorus-nav"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link" target="_blank" href="pdf/CV.pdf">CV</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link" href="crowd-ai-lab.html">Crowd-AI Lab</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link active" aria-current="page" href="publication.html">Publications</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link" href="resource.html">Resources</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link" href="misc.html">Misc</a></li>
+				</ul>
 			</div>
-			
-			<div id="navbar" class="navbar-collapse collapse navbar-right">
-          		<ul id="navbar-ul" class="nav navbar-nav">
-            		<li class="chorus-nav"><a href="index.html" >Home</a></li>
-					<li class="chorus-nav"><a  target="_blank" href="pdf/CV.pdf" >CV</a></li>
-            		<li class="chorus-nav"><a href="crowd-ai-lab.html" >Crowd-AI Lab</a></li>
-            		
-            		<li class="chorus-nav active"><a href="publication.html" >Publications</a></li>
-            		<li class="chorus-nav"><a href="resource.html" >Resources</a></li>
-            		<!--
-            		<li class="chorus-nav"><a href="" >Projects</a></li>
-            		  
-            		<li class="chorus-nav"><a href="" >Contact</a></li>
-            		-->
-            		<li class="chorus-nav"><a href="misc.html" >Misc</a></li>
-          		</ul>
-        	</div>
-			
 		</div>
 	</nav>
 
@@ -1824,7 +1809,7 @@
             <div class="col-md-4">
                 <h2>Team</h2>
                 <p>This field deployment study of the "Chorus" system is part of a research study conducted by <strong>Prof. Jeffrey P. Bigham</strong> and his group at <strong>Carnegie Mellon University</strong>.</p>
-                <a class="btn btn-default" href="http://www.cs.cmu.edu/~jbigham/" target="_blank">More Info</a>
+                <a class="btn btn-outline-secondary" href="http://www.cs.cmu.edu/~jbigham/" target="_blank">More Info</a>
             </div>
             
             <div class="col-md-4">
@@ -1835,7 +1820,7 @@
                 <strong>Chorus: A Crowd-Powered Conversational Assistant.</strong>
                 In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 2013). St Andrews, UK. p151-162.
                 </p>
-                <a class="btn btn-default" href="pdf/chorus.pdf" target="_blank">PDF</a>
+                <a class="btn btn-outline-secondary" href="pdf/chorus.pdf" target="_blank">PDF</a>
             </div>
             
             <div class="col-md-4">
@@ -1848,7 +1833,7 @@
 				<a href='mailto:tinghaoh@cs.cmu.edu?Subject=[Chorus Chatbot]' target='_top'>tinghaoh@cs.cmu.edu</a> <br/ >
 				<a href='http://www.cs.cmu.edu/~tinghaoh/' target='_blank'>http://www.cs.cmu.edu/~tinghaoh/</a>
                 </p>
-                <a class="btn btn-default" href='mailto:tinghaoh@cs.cmu.edu?Subject=[Chorus Chatbot]' target='_top'>Send Email</a>
+                <a class="btn btn-outline-secondary" href='mailto:tinghaoh@cs.cmu.edu?Subject=[Chorus Chatbot]' target='_top'>Send Email</a>
             </div>
            
         </div>
@@ -1869,11 +1854,10 @@
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
+    <script src="js/bootstrap-5.3.8.bundle.min.js"></script>
 </body>
 
 </html>

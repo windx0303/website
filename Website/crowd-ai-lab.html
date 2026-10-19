@@ -15,7 +15,8 @@
 	<link rel="apple-touch-icon" href="icon/apple-touch-icon-cat.png" />
 	
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-5.3.8.min.css" rel="stylesheet">
+    <link href="css/legacy-look.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/small-business.css" rel="stylesheet">
@@ -26,7 +27,6 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
 
-	<script src="js/bootstrap.min.js"></script>
 
 	<link rel="stylesheet" href="css/justifiedGallery.min.css" />
 	<script src="js/jquery.justifiedGallery.min.js"></script>
@@ -42,39 +42,22 @@
 
 <body>
 
-	<nav id="chorus-nav" class="navbar navbar-default navbar-fixed-top">
+	<nav id="chorus-nav" class="navbar navbar-expand-lg fixed-top">
 		<div class="container">
-			
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            		<span class="sr-only">Toggle navigation</span>
-            		<span class="icon-bar"></span>
-            		<span class="icon-bar"></span>
-            		<span class="icon-bar"></span>
-          		</button>
-				<h3>Crowd-AI Lab</h3>
+			<a class="navbar-brand" href="crowd-ai-lab.html">Crowd-AI Lab</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul id="navbar-ul" class="navbar-nav ms-auto">
+					<li class="nav-item chorus-nav"><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link" target="_blank" href="pdf/CV.pdf">CV</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link active" aria-current="page" href="crowd-ai-lab.html">Crowd-AI Lab</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link" href="publication.html">Publications</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link" href="resource.html">Resources</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link" href="misc.html">Misc</a></li>
+				</ul>
 			</div>
-			
-			<div id="navbar" class="navbar-collapse collapse navbar-right">
-          		<ul id="navbar-ul" class="nav navbar-nav">
-          		
-          			
-            		<li class="chorus-nav"><a href="index.html" >Home</a></li>
-					<li class="chorus-nav"><a  target="_blank" href="pdf/CV.pdf" >CV</a></li>
-            		<li class="chorus-nav active"><a href="crowd-ai-lab.html" >Crowd-AI Lab</a></li>
-            		
-            		
-            		<li class="chorus-nav"><a href="publication.html" >Publications</a></li>
-            		<li class="chorus-nav"><a href="resource.html" >Resources</a></li>
-            		<!--  
-            		<li class="chorus-nav"><a href="" >Projects</a></li>
-            		
-            		<li class="chorus-nav"><a href="" >Contact</a></li>
-            		-->
-            		<li class="chorus-nav"><a href="misc.html" >Misc</a></li>
-          		</ul>
-        	</div>
-			
 		</div>
 	</nav>
 
@@ -83,7 +66,7 @@
 		<!-- 
 		<div id='header-banner' class="row">
 			<div class="col-md-6">
-				<img id='logo' class="img-responsive" src="img/chorus_logo_banner.jpg" alt="chorus logo">
+				<img id='logo' class="img-fluid" src="img/chorus_logo_banner.jpg" alt="chorus logo">
         	</div>
         	<div class="col-md-6">
         	</div>
@@ -100,11 +83,11 @@
         <div class="row">
             <div class="col-md-4">
             	<!--  
-                <img class="img-responsive img-rounded" src="images/kenneth_20180731_low_rs.jpg" alt="">
+                <img class="img-fluid rounded" src="images/kenneth_20180731_low_rs.jpg" alt="">
                 -->
                 <a href='https://twitter.com/PSUCrowdAILab' target="_blank">
                
-                <img class="img-responsive" src="images/lab_logo_url.png" alt="chorus logo">
+                <img class="img-fluid" src="images/lab_logo_url.png" alt="chorus logo">
                 </a>
             </div>
             
@@ -113,7 +96,8 @@
 
 		<div class="alert alert-warning" role="alert" style="margin-top: 20px;">
 			<h4><strong>Prospective PhD students (Fall 2027):</strong></h4>
-			<h5 class="mb-0">I'm not sure whether I will recruit new PhD students starting in Fall 2027, because I currently do not have funding. I will update this page if that changes.</h5>
+			<h5>I'm not sure whether I will recruit new PhD students starting in Fall 2027, because I currently do not have funding. I will update this page if that changes.</h5>
+			<h5 class="mb-0">Before contacting me, please read <a href="https://docs.google.com/document/d/1aW--f4S25m91ngxsKb6DkLjni8BxXA-wvq2eM0Qaeeg/edit?usp=sharing" target="_blank"><strong>this FAQ for prospective students</strong></a>. Some information there may be outdated, but many of the thoughts are still valid and relevant.</h5>
 		</div>
 
 		<hr>
@@ -373,16 +357,16 @@
         <div class='row'>
         
         	<div class="col-md-3 profile-box">
-                <img class="img-responsive" src="images/scene_1.jpg" alt="">
+                <img class="img-fluid" src="images/scene_1.jpg" alt="">
             </div>
             <div class="col-md-3 profile-box">
-                <img class="img-responsive" src="images/scene_2.jpg" alt="">
+                <img class="img-fluid" src="images/scene_2.jpg" alt="">
             </div>
             <div class="col-md-3 profile-box">
-                <img class="img-responsive" src="images/scene_3.jpg" alt="">
+                <img class="img-fluid" src="images/scene_3.jpg" alt="">
             </div>
             <div class="col-md-3 profile-box">
-                <img class="img-responsive" src="images/scene_4.jpg" alt="">
+                <img class="img-fluid" src="images/scene_4.jpg" alt="">
             </div>
         
 		</div>
@@ -454,10 +438,10 @@
 
 		<div class="row">
 			<ul class="chorus-desc alumni-list">
-				<li><span class="label label-default">PhD #1</span> <a href="https://hua-shen.org/" target="_blank"><strong>Hua Shen</strong></a> (2023) &rarr; Tenure-Track Assistant Professor, NYU Shanghai</li>
-				<li><span class="label label-default">PhD #2</span> <a href="https://appleternity.github.io/chieh-yang/" target="_blank"><strong>Chieh-Yang Huang</strong></a> (2023) &rarr; Stealth start-up</li>
-				<li><span class="label label-default">PhD #3</span> <a href="https://tingyaohsu.github.io/" target="_blank"><strong>Ting-Yao (Edward) Hsu</strong></a> (2025, co-advised with <a href="https://clgiles.ist.psu.edu/" target="_blank">Lee Giles</a>) &rarr; TSMC US</li>
-				<li><span class="label label-default">PhD #4</span> <strong>Zixin Tang</strong> (2026, co-advised with <a href="https://psych.la.psu.edu/people/jgv3/" target="_blank">Janet van Hell</a>) &rarr; Postdoctoral Researcher, Hong Kong Baptist University</li>
+				<li><span class="badge text-bg-secondary">PhD #1</span> <a href="https://hua-shen.org/" target="_blank"><strong>Hua Shen</strong></a> (2023) &rarr; Tenure-Track Assistant Professor, NYU Shanghai</li>
+				<li><span class="badge text-bg-secondary">PhD #2</span> <a href="https://appleternity.github.io/chieh-yang/" target="_blank"><strong>Chieh-Yang Huang</strong></a> (2023) &rarr; Stealth start-up</li>
+				<li><span class="badge text-bg-secondary">PhD #3</span> <a href="https://tingyaohsu.github.io/" target="_blank"><strong>Ting-Yao (Edward) Hsu</strong></a> (2025, co-advised with <a href="https://clgiles.ist.psu.edu/" target="_blank">Lee Giles</a>) &rarr; TSMC US</li>
+				<li><span class="badge text-bg-secondary">PhD #4</span> <strong>Zixin Tang</strong> (2026, co-advised with <a href="https://psych.la.psu.edu/people/jgv3/" target="_blank">Janet van Hell</a>) &rarr; Postdoctoral Researcher, Hong Kong Baptist University</li>
 			</ul>
 		</div>
 
@@ -473,7 +457,7 @@
             <div class="col-md-4">
                 <h2>Team</h2>
                 <p>This field deployment study of the "Chorus" system is part of a research study conducted by <strong>Prof. Jeffrey P. Bigham</strong> and his group at <strong>Carnegie Mellon University</strong>.</p>
-                <a class="btn btn-default" href="http://www.cs.cmu.edu/~jbigham/" target="_blank">More Info</a>
+                <a class="btn btn-outline-secondary" href="http://www.cs.cmu.edu/~jbigham/" target="_blank">More Info</a>
             </div>
             
             <div class="col-md-4">
@@ -484,7 +468,7 @@
                 <strong>Chorus: A Crowd-Powered Conversational Assistant.</strong>
                 In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 2013). St Andrews, UK. p151-162.
                 </p>
-                <a class="btn btn-default" href="pdf/chorus.pdf" target="_blank">PDF</a>
+                <a class="btn btn-outline-secondary" href="pdf/chorus.pdf" target="_blank">PDF</a>
             </div>
             
             <div class="col-md-4">
@@ -497,7 +481,7 @@
 				<a href='mailto:tinghaoh@cs.cmu.edu?Subject=[Chorus Chatbot]' target='_top'>tinghaoh@cs.cmu.edu</a> <br/ >
 				<a href='http://www.cs.cmu.edu/~tinghaoh/' target='_blank'>http://www.cs.cmu.edu/~tinghaoh/</a>
                 </p>
-                <a class="btn btn-default" href='mailto:tinghaoh@cs.cmu.edu?Subject=[Chorus Chatbot]' target='_top'>Send Email</a>
+                <a class="btn btn-outline-secondary" href='mailto:tinghaoh@cs.cmu.edu?Subject=[Chorus Chatbot]' target='_top'>Send Email</a>
             </div>
            
         </div>
@@ -524,9 +508,9 @@
 
 	<!-- Bootstrap Core JavaScript -->
 	<!--
-	<script src="js/bootstrap.min.js"></script>
 	-->
 
+    <script src="js/bootstrap-5.3.8.bundle.min.js"></script>
 </body>
 
 </html>

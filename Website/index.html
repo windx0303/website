@@ -15,7 +15,8 @@
 	<link rel="apple-touch-icon" href="icon/apple-touch-icon-cat.png" />
 	
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-5.3.8.min.css" rel="stylesheet">
+    <link href="css/legacy-look.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/small-business.css" rel="stylesheet">
@@ -24,8 +25,6 @@
 	<link href="font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
             
-    <script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	
 	<!--  
 	<script src="js/index.js"></script>
@@ -34,39 +33,22 @@
 
 <body>
 
-	<nav id="chorus-nav" class="navbar navbar-default navbar-fixed-top">
+	<nav id="chorus-nav" class="navbar navbar-expand-lg fixed-top">
 		<div class="container">
-			
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            		<span class="sr-only">Toggle navigation</span>
-            		<span class="icon-bar"></span>
-            		<span class="icon-bar"></span>
-            		<span class="icon-bar"></span>
-          		</button>
-				<h3>Ting-Hao 'Kenneth' Huang</h3>
+			<a class="navbar-brand" href="index.html">Ting-Hao 'Kenneth' Huang</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul id="navbar-ul" class="navbar-nav ms-auto">
+					<li class="nav-item chorus-nav"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link" target="_blank" href="pdf/CV.pdf">CV</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link" href="crowd-ai-lab.html">Crowd-AI Lab</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link" href="publication.html">Publications</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link" href="resource.html">Resources</a></li>
+					<li class="nav-item chorus-nav"><a class="nav-link" href="misc.html">Misc</a></li>
+				</ul>
 			</div>
-			
-			<div id="navbar" class="navbar-collapse collapse navbar-right">
-          		<ul id="navbar-ul" class="nav navbar-nav">
-          		
-          			
-            		<li class="chorus-nav active"><a href="index.html" >Home</a></li>
-					<li class="chorus-nav"><a  target="_blank" href="pdf/CV.pdf" >CV</a></li>
-            		<li class="chorus-nav"><a href="crowd-ai-lab.html" >Crowd-AI Lab</a></li>
-            		
-            		
-            		<li class="chorus-nav"><a href="publication.html" >Publications</a></li>
-            		<li class="chorus-nav"><a href="resource.html" >Resources</a></li>
-            		<!--  
-            		<li class="chorus-nav"><a href="" >Projects</a></li>
-            		
-            		<li class="chorus-nav"><a href="" >Contact</a></li>
-            		-->
-            		<li class="chorus-nav"><a href="misc.html" >Misc</a></li>
-          		</ul>
-        	</div>
-			
 		</div>
 	</nav>
 
@@ -75,7 +57,7 @@
 		<!-- 
 		<div id='header-banner' class="row">
 			<div class="col-md-6">
-				<img id='logo' class="img-responsive" src="img/chorus_logo_banner.jpg" alt="chorus logo">
+				<img id='logo' class="img-fluid" src="img/chorus_logo_banner.jpg" alt="chorus logo">
         	</div>
         	<div class="col-md-6">
         	</div>
@@ -153,7 +135,7 @@
                 </ul>
                 <!--
                 <p class='chorus-desc'>
-					<span class="label label-primary">Mission Statement</span>
+					<span class="badge text-bg-primary">Mission Statement</span>
 
 					
 					Push the boundaries of what can be achieved by <strong>people and computers together</strong>, imagining a future in which intelligent systems provide <strong>solid and advanced support in complex human tasks</strong> rather than just automating mundane routines.
@@ -322,8 +304,8 @@
         	<div class="col-md-12">
         		<h3>Upcoming Travels &amp; Talks</h3>
         		<ul class='faq-text'>
-        			<li><span class="label label-info">Nov 1-4, 2026</span> Heading to <a href="https://uist.acm.org/2026/" target="_blank"><strong>UIST 2026</strong></a> in Detroit for the <a href="https://uist.acm.org/2026/workshops/#enriching-writing-ecosystems-at-the-fifth-workshop-on-intelligent-and-interactive-writing-assistants" target="_blank"><strong>In2Writing workshop</strong></a> (Nov 2). Come say hi!</li>
-        			<li><span class="label label-info">Dec 9-30, 2026</span> In Taiwan!</li>
+        			<li><span class="badge text-bg-info">Nov 1-4, 2026</span> Heading to <a href="https://uist.acm.org/2026/" target="_blank"><strong>UIST 2026</strong></a> in Detroit for the <a href="https://uist.acm.org/2026/workshops/#enriching-writing-ecosystems-at-the-fifth-workshop-on-intelligent-and-interactive-writing-assistants" target="_blank"><strong>In2Writing workshop</strong></a> (Nov 2). Come say hi!</li>
+        			<li><span class="badge text-bg-info">Dec 9-30, 2026</span> In Taiwan!</li>
         		</ul>
         	</div>
         </div>
@@ -339,146 +321,146 @@
 
         		<ul class='faq-text'>
 
-					<li><span class="label label-success">Oct 2026</span> Had a great time at <a href="https://colmweb.org/" target="_blank"><strong>COLM 2026</strong></a> in San Francisco!</li>
+					<li><span class="badge text-bg-success">Oct 2026</span> Had a great time at <a href="https://colmweb.org/" target="_blank"><strong>COLM 2026</strong></a> in San Francisco!</li>
 
-					<li><span class="label label-success">Sep 2026</span> <a href="https://hcomp.acm.org/2026/" target="_blank"><strong>ACM HCOMP 2026</strong></a> + <a href="https://ci.acm.org/2026/" target="_blank"><strong>ACM CI 2026</strong></a> was a huge success. Super happy! Thank you to everyone who came! <a href="https://www.youtube.com/watch?v=zrsNTmOckdc" target="_blank">Watch the recap video!</a></li>
+					<li><span class="badge text-bg-success">Sep 2026</span> <a href="https://hcomp.acm.org/2026/" target="_blank"><strong>ACM HCOMP 2026</strong></a> + <a href="https://ci.acm.org/2026/" target="_blank"><strong>ACM CI 2026</strong></a> was a huge success. Super happy! Thank you to everyone who came! <a href="https://www.youtube.com/watch?v=zrsNTmOckdc" target="_blank">Watch the recap video!</a></li>
 
-					<li><span class="label label-success">Sep 2026</span> Invited to attend Salesforce's <strong>AI Research Faculty Summit</strong>, part of <strong>Dreamforce 2026</strong> in San Francisco!</li>
+					<li><span class="badge text-bg-success">Sep 2026</span> Invited to attend Salesforce's <strong>AI Research Faculty Summit</strong>, part of <strong>Dreamforce 2026</strong> in San Francisco!</li>
 
-					<li><span class="label label-success">Sep 2026</span> My first paper with collaborators at Cornell is out: <a href="https://arxiv.org/abs/2609.26926" target="_blank"><strong>"Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation"</strong></a>!</li>
+					<li><span class="badge text-bg-success">Sep 2026</span> My first paper with collaborators at Cornell is out: <a href="https://arxiv.org/abs/2609.26926" target="_blank"><strong>"Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation"</strong></a>!</li>
 
-					<li><span class="label label-success">Aug 2026</span> Our paper, <a href="https://arxiv.org/abs/2605.29928" target="_blank"><strong>"Label Over Logic? How Source Cues Bias Human Fallacy Judgments More Than LLMs"</strong></a>, got into the <strong>EMNLP 2026 main conference</strong>! Congrats to the team!</li>
+					<li><span class="badge text-bg-success">Aug 2026</span> Our paper, <a href="https://arxiv.org/abs/2605.29928" target="_blank"><strong>"Label Over Logic? How Source Cues Bias Human Fallacy Judgments More Than LLMs"</strong></a>, got into the <strong>EMNLP 2026 main conference</strong>! Congrats to the team!</li>
 
-					<li><span class="label label-success">Apr 2026</span> Our paper on <a href="https://aclanthology.org/2026.acl-long.426/" target="_blank"><strong>coded language detection</strong></a> got into the <strong>ACL 2026 main conference</strong>! Huge congrats to the team!</li>
+					<li><span class="badge text-bg-success">Apr 2026</span> Our paper on <a href="https://aclanthology.org/2026.acl-long.426/" target="_blank"><strong>coded language detection</strong></a> got into the <strong>ACL 2026 main conference</strong>! Huge congrats to the team!</li>
 
 
-					<li><span class="label label-success">Feb 2026</span> Gave a <a href="https://human.cornell.edu/events/what-roles-will-humans-play-future-data-annotation" target="_blank">talk at Cornell's <strong>Department of Human Centered Design (HCD)</strong></a> &mdash; thanks for having me!</li>
+					<li><span class="badge text-bg-success">Feb 2026</span> Gave a <a href="https://human.cornell.edu/events/what-roles-will-humans-play-future-data-annotation" target="_blank">talk at Cornell's <strong>Department of Human Centered Design (HCD)</strong></a> &mdash; thanks for having me!</li>
 
-					<li><span class="label label-success">Jan 2026</span> Traveled to Taiwan and <strong>AAAI 2026</strong> to present our position paper on the <a href="https://www.arxiv.org/abs/2512.21789" target="_blank"><strong>Five Years of SciCap</strong></a> at the <a href="https://ai-2-ase.github.io/" target="_blank">AI2ASE workshop</a>.</li>
+					<li><span class="badge text-bg-success">Jan 2026</span> Traveled to Taiwan and <strong>AAAI 2026</strong> to present our position paper on the <a href="https://www.arxiv.org/abs/2512.21789" target="_blank"><strong>Five Years of SciCap</strong></a> at the <a href="https://ai-2-ase.github.io/" target="_blank">AI2ASE workshop</a>.</li>
 
-					<li><span class="label label-success">Dec 2025</span> Honored to receive <a href="https://www.psu.edu/news/information-sciences-and-technology/story/ist-recognizes-faculty-and-staff-annual-awards-ceremony-0" target="_blank"><strong>IST's Faculty Excellence in Research Award 2025</strong></a>!</li>
+					<li><span class="badge text-bg-success">Dec 2025</span> Honored to receive <a href="https://www.psu.edu/news/information-sciences-and-technology/story/ist-recognizes-faculty-and-staff-annual-awards-ceremony-0" target="_blank"><strong>IST's Faculty Excellence in Research Award 2025</strong></a>!</li>
 
-					<li><span class="label label-success">Nov 2025</span> My group presented <a href="https://x.com/windx0303/status/1985941118970728595" target="_blank">a Findings paper</a> and <a href="https://x.com/windx0303/status/1987529462968172738" target="_blank">a workshop paper</a> at <strong>EMNLP 2025</strong>!</li>
-					<!-- <li><span class="label label-success">Sep 2025</span> Giving a talk at <a href="https://infosci.cornell.edu/events/what-roles-will-humans-play-future-data-annotation" target="_blank">Cornell Information Science Colloquium</a>.</li> -->
+					<li><span class="badge text-bg-success">Nov 2025</span> My group presented <a href="https://x.com/windx0303/status/1985941118970728595" target="_blank">a Findings paper</a> and <a href="https://x.com/windx0303/status/1987529462968172738" target="_blank">a workshop paper</a> at <strong>EMNLP 2025</strong>!</li>
+					<!-- <li><span class="badge text-bg-success">Sep 2025</span> Giving a talk at <a href="https://infosci.cornell.edu/events/what-roles-will-humans-play-future-data-annotation" target="_blank">Cornell Information Science Colloquium</a>.</li> -->
 <!--
-					<li><span class="label label-success">August 2025</span> One paper <a href="https://x.com/windx0303/status/1958299677998145643" target="_blank">accepted at EMNLP 2025 Findings</a>!</li>
+					<li><span class="badge text-bg-success">August 2025</span> One paper <a href="https://x.com/windx0303/status/1958299677998145643" target="_blank">accepted at EMNLP 2025 Findings</a>!</li>
 				-->
 					
 <!--
-					<li><span class="label label-success">June 2025</span> The <strong><a href="https://scicap.ai/#/challenge/2025" target="_blank">3rd SciCap Challenge</a></strong> is launched! (Deadline: Aug 11).</li>
+					<li><span class="badge text-bg-success">June 2025</span> The <strong><a href="https://scicap.ai/#/challenge/2025" target="_blank">3rd SciCap Challenge</a></strong> is launched! (Deadline: Aug 11).</li>
 				-->
 					
 
-					<!-- <li><span class="label label-success">May 2025</span> <a href="https://arxiv.org/abs/2502.11767" target="_blank">One long paper</a> is accepted by <a href="https://2025.aclweb.org/" target="_blank">ACL 2025</a> main track.</li> -->
+					<!-- <li><span class="badge text-bg-success">May 2025</span> <a href="https://arxiv.org/abs/2502.11767" target="_blank">One long paper</a> is accepted by <a href="https://2025.aclweb.org/" target="_blank">ACL 2025</a> main track.</li> -->
 					
 <!--
-					<li><span class="label label-success">May 2025</span> Attending <a href="https://cra.org/ccc/events/ccc-computing-futures-symposium/" target="_blank">CCC Computing Futures Symposium</a> on May 15-16 in Washington, DC.</li>
+					<li><span class="badge text-bg-success">May 2025</span> Attending <a href="https://cra.org/ccc/events/ccc-computing-futures-symposium/" target="_blank">CCC Computing Futures Symposium</a> on May 15-16 in Washington, DC.</li>
 				-->
-					<!-- <li><span class="label label-success">May 2025</span> Invited talk at Dr. <a href="https://people.cs.georgetown.edu/nschneid/" target="_blank">Nathan Schneider's</a> group, Georgetown University, on May 14.</li> -->
+					<!-- <li><span class="badge text-bg-success">May 2025</span> Invited talk at Dr. <a href="https://people.cs.georgetown.edu/nschneid/" target="_blank">Nathan Schneider's</a> group, Georgetown University, on May 14.</li> -->
 <!--
-					<li><span class="label label-success">May 2025</span> Attending the <a href="https://in2writing.glitch.me/">In2Writing Workshop</a>, as part of NAACL 2025.</li>
-					<li><span class="label label-success">April 2025</span> Attending <a href="https://in2writing.glitch.me/">CHI 2025</a> in Yokohama, Japan.</li>
+					<li><span class="badge text-bg-success">May 2025</span> Attending the <a href="https://in2writing.glitch.me/">In2Writing Workshop</a>, as part of NAACL 2025.</li>
+					<li><span class="badge text-bg-success">April 2025</span> Attending <a href="https://in2writing.glitch.me/">CHI 2025</a> in Yokohama, Japan.</li>
 				-->
-					<!-- <li><span class="label label-success">April 2025</span> My group is presenting two main conference papers, one LBW paper, and one workshop paper at CHI 2025. <a href="https://dl.acm.org/doi/10.1145/3706598.3713379" target="_blank">Our Red Note paper won the <strong>Best Paper Honorable Mention</strong>!</a></li> -->
-					<!-- <li><span class="label label-success">April 2025</span> PSU Crowd-AI Lab PhD #3, Dr. Ting-Yao (Edward) Hsu, <a href="https://x.com/windx0303/status/1912550925702422735?t=VAuSTIefemjeve60lUK7hg&s=19" target="_blank">successfully defended his dissertation</a>!</li> -->
+					<!-- <li><span class="badge text-bg-success">April 2025</span> My group is presenting two main conference papers, one LBW paper, and one workshop paper at CHI 2025. <a href="https://dl.acm.org/doi/10.1145/3706598.3713379" target="_blank">Our Red Note paper won the <strong>Best Paper Honorable Mention</strong>!</a></li> -->
+					<!-- <li><span class="badge text-bg-success">April 2025</span> PSU Crowd-AI Lab PhD #3, Dr. Ting-Yao (Edward) Hsu, <a href="https://x.com/windx0303/status/1912550925702422735?t=VAuSTIefemjeve60lUK7hg&s=19" target="_blank">successfully defended his dissertation</a>!</li> -->
 					
 
 
-					<!-- <li><span class="label label-success">April 2025</span> PSU Crowd-AI Lab PhD #1, Dr. Hua Shen, is <a href="https://x.com/huashen218/status/1914763036541509943" target="_blank">starting a new faculty position at NYU Shanghai</a>!</li> -->
-					<!-- <li><span class="label label-success">April 2025</span> Invited talk at <a href="https://www.clsp.jhu.edu/events/ting-hao-kenneth-huang-penn-state-what-roles-will-humans-play-in-the-future-of-data-annotation/" target="_blank">JHU's Center for Language and Speech Processing (CLSP)</a>.</li> -->
-					<!-- <li><span class="label label-success">April 2025</span> Leading the organization of <a href="https://www.mascsll.org/" target="_blank"><strong>MASC-SLL 2025</strong></a> at Penn State, with <a href="https://x.com/windx0303/status/1908727840817709221" target="_blank">over 100 participants attending in person</a>!</li> -->
+					<!-- <li><span class="badge text-bg-success">April 2025</span> PSU Crowd-AI Lab PhD #1, Dr. Hua Shen, is <a href="https://x.com/huashen218/status/1914763036541509943" target="_blank">starting a new faculty position at NYU Shanghai</a>!</li> -->
+					<!-- <li><span class="badge text-bg-success">April 2025</span> Invited talk at <a href="https://www.clsp.jhu.edu/events/ting-hao-kenneth-huang-penn-state-what-roles-will-humans-play-in-the-future-of-data-annotation/" target="_blank">JHU's Center for Language and Speech Processing (CLSP)</a>.</li> -->
+					<!-- <li><span class="badge text-bg-success">April 2025</span> Leading the organization of <a href="https://www.mascsll.org/" target="_blank"><strong>MASC-SLL 2025</strong></a> at Penn State, with <a href="https://x.com/windx0303/status/1908727840817709221" target="_blank">over 100 participants attending in person</a>!</li> -->
 					<!--
-					<li><span class="label label-success">March 2025</span> Receiving the <a href="https://x.com/windx0303/status/1897077657835331953">Best Paper Award at the AAAI 2025 AI4Research workshop</a>!</li>
+					<li><span class="badge text-bg-success">March 2025</span> Receiving the <a href="https://x.com/windx0303/status/1897077657835331953">Best Paper Award at the AAAI 2025 AI4Research workshop</a>!</li>
 				-->
-					<!-- <li><span class="label label-success">March 2025</span> Invited talk at the <a href="https://x.com/TechAtBloomberg/status/1896583877528785288" target="_blank">CTO Data Science Speaker Series at Bloomberg</a> in NYC.</li> -->
-					<!-- <li><span class="label label-success">December 2024</span> Receiving a <a href="https://www.psu.edu/news/information-sciences-and-technology/story/ist-researcher-receives-grant-improve-scientific-captions" target="_blank">research grant from <strong>Sloan Foundation</strong> to foster scientific figure caption writing</a>!</li> -->
+					<!-- <li><span class="badge text-bg-success">March 2025</span> Invited talk at the <a href="https://x.com/TechAtBloomberg/status/1896583877528785288" target="_blank">CTO Data Science Speaker Series at Bloomberg</a> in NYC.</li> -->
+					<!-- <li><span class="badge text-bg-success">December 2024</span> Receiving a <a href="https://www.psu.edu/news/information-sciences-and-technology/story/ist-researcher-receives-grant-improve-scientific-captions" target="_blank">research grant from <strong>Sloan Foundation</strong> to foster scientific figure caption writing</a>!</li> -->
 
 <!--
-					<li><span class="label label-success">June 2024</span> One short paper was accepted by <a href="https://ieeevis.org/year/2024/welcome" target="_blank"><strong>VIS 2024</strong></a>!</li>
+					<li><span class="badge text-bg-success">June 2024</span> One short paper was accepted by <a href="https://ieeevis.org/year/2024/welcome" target="_blank"><strong>VIS 2024</strong></a>!</li>
 
-					<li><span class="label label-success">May 2024</span> <a href="https://twitter.com/windx0303/status/1787885350582374631" target="_blank"><strong>I received tenure at Penn State!</strong></a> Thanks to everyone. This is truly for you.</li>
-					<li><span class="label label-success">March 2024</span> One paper was accepted at CHI 2024 In2Writing Workshop!</li>
-					<li><span class="label label-success">March 2024</span> Two papers were accepted by CHI 2024 Late-Breaking-Work!</li>
+					<li><span class="badge text-bg-success">May 2024</span> <a href="https://twitter.com/windx0303/status/1787885350582374631" target="_blank"><strong>I received tenure at Penn State!</strong></a> Thanks to everyone. This is truly for you.</li>
+					<li><span class="badge text-bg-success">March 2024</span> One paper was accepted at CHI 2024 In2Writing Workshop!</li>
+					<li><span class="badge text-bg-success">March 2024</span> Two papers were accepted by CHI 2024 Late-Breaking-Work!</li>
 
-					<li><span class="label label-success">Jan 2024</span> One paper on comparing GPT-4 with crowdsourced data annotation pipelines led by <a href="https://stevenhe918.github.io/" target="_blank">Steven He</a> was accepted by <a href="https://chi2024.acm.org/" target="_blank"><strong>CHI 2024</strong></a>!</li>
+					<li><span class="badge text-bg-success">Jan 2024</span> One paper on comparing GPT-4 with crowdsourced data annotation pipelines led by <a href="https://stevenhe918.github.io/" target="_blank">Steven He</a> was accepted by <a href="https://chi2024.acm.org/" target="_blank"><strong>CHI 2024</strong></a>!</li>
 
-					<li><span class="label label-success">Dec 2023</span> My students and I will attend <a href="https://2023.emnlp.org/" target="_blank"><strong>EMNLP 2023</strong></a> in Singapore to present our <a href="https://arxiv.org/abs/2310.15129" target="_blank">main-conference paper</a> and <a href="https://arxiv.org/abs/2310.15405" target="_blank">Findings paper</a>. Come say hi!</li>
+					<li><span class="badge text-bg-success">Dec 2023</span> My students and I will attend <a href="https://2023.emnlp.org/" target="_blank"><strong>EMNLP 2023</strong></a> in Singapore to present our <a href="https://arxiv.org/abs/2310.15129" target="_blank">main-conference paper</a> and <a href="https://arxiv.org/abs/2310.15405" target="_blank">Findings paper</a>. Come say hi!</li>
 
 					
 
-					<li><span class="label label-success">Oct 2023</span> Our paper, <strong><a target="_blank" href="https://dl.acm.org/doi/10.1145/3584931.3607492">ConvXAI</a></strong>, won the <strong><a href="https://cscw.acm.org/2023/index.php/awards/" target="_blank">Best Demo at CSCW 2023</a></strong>!</li>
+					<li><span class="badge text-bg-success">Oct 2023</span> Our paper, <strong><a target="_blank" href="https://dl.acm.org/doi/10.1145/3584931.3607492">ConvXAI</a></strong>, won the <strong><a href="https://cscw.acm.org/2023/index.php/awards/" target="_blank">Best Demo at CSCW 2023</a></strong>!</li>
 					
 
-					<li><span class="label label-success">Sep 2023</span> <strong>Crowd-AI Lab Ph.D. #2, <a href="https://appleternity.github.io/chieh-yang/" target="_blank">Chien-Yang Huang</a></strong>, defended his dissertation successfully!</li>
+					<li><span class="badge text-bg-success">Sep 2023</span> <strong>Crowd-AI Lab Ph.D. #2, <a href="https://appleternity.github.io/chieh-yang/" target="_blank">Chien-Yang Huang</a></strong>, defended his dissertation successfully!</li>
 
 
-					<li><span class="label label-success">Sep 2023</span> <a href="https://arxiv.org/abs/2302.12324" target="_blank"><strong>Our paper on generating figure captions as text summaries</strong></a> won <strong>INLG 2023 Best Paper Award</strong>!</li>
+					<li><span class="badge text-bg-success">Sep 2023</span> <a href="https://arxiv.org/abs/2302.12324" target="_blank"><strong>Our paper on generating figure captions as text summaries</strong></a> won <strong>INLG 2023 Best Paper Award</strong>!</li>
 					
-					<li><span class="label label-success">Aug 2023</span> <a href="https://arxiv.org/abs/2304.01002" target="_blank">One paper</a> accepted by <a href="https://www.humancomputation.com/" target="_blank"><strong>HCOMP 2023</strong></a>!</li>
+					<li><span class="badge text-bg-success">Aug 2023</span> <a href="https://arxiv.org/abs/2304.01002" target="_blank">One paper</a> accepted by <a href="https://www.humancomputation.com/" target="_blank"><strong>HCOMP 2023</strong></a>!</li>
 					
-					<li><span class="label label-success">July 2023</span> <strong>Crowd-AI Lab Ph.D. #1, <a href="https://hua-shen.org/" target="_blank">Hua Shen</a></strong>, defended her dissertation successfully!</li>
+					<li><span class="badge text-bg-success">July 2023</span> <strong>Crowd-AI Lab Ph.D. #1, <a href="https://hua-shen.org/" target="_blank">Hua Shen</a></strong>, defended her dissertation successfully!</li>
 					
-					<li><span class="label label-success">July 2023</span> I attend <a href="https://sigir.org/sigir2023/" target="_blank">SIGIR 2023 in Taipei</a>.</li>
+					<li><span class="badge text-bg-success">July 2023</span> I attend <a href="https://sigir.org/sigir2023/" target="_blank">SIGIR 2023 in Taipei</a>.</li>
 					
-					<li><span class="label label-success">July 2023</span> <a href="https://arxiv.org/abs/2302.12324" target="_blank">One paper</a> accepted by <a href="https://inlg2023.github.io/" target="_blank"><strong>INLG 2023</strong></a>!</li>
+					<li><span class="badge text-bg-success">July 2023</span> <a href="https://arxiv.org/abs/2302.12324" target="_blank">One paper</a> accepted by <a href="https://inlg2023.github.io/" target="_blank"><strong>INLG 2023</strong></a>!</li>
 				-->
 					<!--
-					<li><span class="label label-success">May 2023</span> We launched <a href="http://scicap.ai/" target="_blank"><strong>The 1st Scientific Figure Captioning (SciCap) Challenge</strong></a> at the 5th Workshop on Closing the Loop Between Vision and Language (CLVL) in <a href="https://iccv2023.thecvf.com/" target="_blank"><strong>ICCV 2023</strong></a>! Come submit your cool figure captioning system!</li> 
+					<li><span class="badge text-bg-success">May 2023</span> We launched <a href="http://scicap.ai/" target="_blank"><strong>The 1st Scientific Figure Captioning (SciCap) Challenge</strong></a> at the 5th Workshop on Closing the Loop Between Vision and Language (CLVL) in <a href="https://iccv2023.thecvf.com/" target="_blank"><strong>ICCV 2023</strong></a>! Come submit your cool figure captioning system!</li> 
 					-->
 
-				<!--	<li><span class="label label-success">May 2023</span> One paper is accepted by <a href="https://aclweb.org/aclwiki/BioNLP_Workshop" target="_blank"><strong>BioNLP 2023</strong></a>!</li> -->
+				<!--	<li><span class="badge text-bg-success">May 2023</span> One paper is accepted by <a href="https://aclweb.org/aclwiki/BioNLP_Workshop" target="_blank"><strong>BioNLP 2023</strong></a>!</li> -->
 
 				<!--
-					<li><span class="label label-success">May 2023</span> One paper is accepted by <a href="https://www.aies-conference.com/2023/" target="_blank"><strong>AIES 2023</strong></a>!</li>
+					<li><span class="badge text-bg-success">May 2023</span> One paper is accepted by <a href="https://www.aies-conference.com/2023/" target="_blank"><strong>AIES 2023</strong></a>!</li>
 
 
 					
 
-					<li><span class="label label-success">April 2023</span> My students and I will attend <a href="https://chi2023.acm.org/"  target="_blank"><strong>CHI 2023</strong></a> in Hamburg, Germany. Come say hi!</li>
+					<li><span class="badge text-bg-success">April 2023</span> My students and I will attend <a href="https://chi2023.acm.org/"  target="_blank"><strong>CHI 2023</strong></a> in Hamburg, Germany. Come say hi!</li>
 				-->
 					<!--					
-					<li><span class="label label-success">March 2023</span> We will organize the first <a href="https://twitter.com/windx0303/status/1645105234966970372" target="_blank"><strong>SciCap Challenge</strong></a> at the 5th Workshop on Closing the Loop Between Vision and Language (CLVL) in <a href="https://iccv2023.thecvf.com/" target="_blank"><strong>ICCV 2023</strong></a>!</li>
+					<li><span class="badge text-bg-success">March 2023</span> We will organize the first <a href="https://twitter.com/windx0303/status/1645105234966970372" target="_blank"><strong>SciCap Challenge</strong></a> at the 5th Workshop on Closing the Loop Between Vision and Language (CLVL) in <a href="https://iccv2023.thecvf.com/" target="_blank"><strong>ICCV 2023</strong></a>!</li>
 					-->
-				<!--	<li><span class="label label-success">February 2023</span> One paper is accepted by <a href="https://twitter.com/windx0303/status/1647964084002758659"  target="_blank"><strong>CHI 2023 Late-Breaking-Work</strong></a>!</li> -->
+				<!--	<li><span class="badge text-bg-success">February 2023</span> One paper is accepted by <a href="https://twitter.com/windx0303/status/1647964084002758659"  target="_blank"><strong>CHI 2023 Late-Breaking-Work</strong></a>!</li> -->
 					
 <!--
 
-					<li><span class="label label-success">February 2023</span> My student and I will attend <strong><a href="https://aaai-23.aaai.org/" target="_blank">AAAI 2023</a></strong> in person.</li>
+					<li><span class="badge text-bg-success">February 2023</span> My student and I will attend <strong><a href="https://aaai-23.aaai.org/" target="_blank">AAAI 2023</a></strong> in person.</li>
 					
 
 
-					<li><span class="label label-success">January 2023</span> One short paper was accepted by <a href="https://2023.eacl.org/" target="_blank"><strong>EACL 2023</strong></a>!</li>
+					<li><span class="badge text-bg-success">January 2023</span> One short paper was accepted by <a href="https://2023.eacl.org/" target="_blank"><strong>EACL 2023</strong></a>!</li>
 					
 
-					<li><span class="label label-success">January 2023</span> One paper was accepted by <a href="https://creativeai-ws.github.io/" target="_blank"><strong>AAAI 2023 Workshop of Creative AI Across Modalities</strong></a>!</li>
+					<li><span class="badge text-bg-success">January 2023</span> One paper was accepted by <a href="https://creativeai-ws.github.io/" target="_blank"><strong>AAAI 2023 Workshop of Creative AI Across Modalities</strong></a>!</li>
 					
 					
-					<li><span class="label label-success">December 2022</span> I will co-organize <a href="http://in2writing.glitch.me/" target="_blank"><strong>the Second Workshop on Intelligent and Interactive Writing Assistants (In2Writing)</strong></a> at <a href="https://chi2023.acm.org/" target="_blank">CHI 2023</a>. <a href="https://twitter.com/windx0303/status/1610502340028792833" target="_blank"><strong>Please submit your 2-page position paper to us!</strong></a></li>
+					<li><span class="badge text-bg-success">December 2022</span> I will co-organize <a href="http://in2writing.glitch.me/" target="_blank"><strong>the Second Workshop on Intelligent and Interactive Writing Assistants (In2Writing)</strong></a> at <a href="https://chi2023.acm.org/" target="_blank">CHI 2023</a>. <a href="https://twitter.com/windx0303/status/1610502340028792833" target="_blank"><strong>Please submit your 2-page position paper to us!</strong></a></li>
 					
 
-					<li><span class="label label-success">October 2022</span> <a href="https://twitter.com/windx0303/status/1600918289974104066" target="_blank">2 papers from our lab members and collaborators were accepted by EMNLP 2022</a>!</li>
+					<li><span class="badge text-bg-success">October 2022</span> <a href="https://twitter.com/windx0303/status/1600918289974104066" target="_blank">2 papers from our lab members and collaborators were accepted by EMNLP 2022</a>!</li>
 					
 					
-					<li><span class="label label-success">September 2022</span> <a href="https://youtu.be/iMDsX52VWGY" target="_blank">1 paper accepted by HCOMP 2022's WiP/Demo track!</a></li>
+					<li><span class="badge text-bg-success">September 2022</span> <a href="https://youtu.be/iMDsX52VWGY" target="_blank">1 paper accepted by HCOMP 2022's WiP/Demo track!</a></li>
 					
-					<li><span class="label label-success">July 2022</span> I co-organize the <strong><a href="https://humaneval-workshop.github.io/" target="_blank">Workshop on Human Evaluation of Generative Models</a></strong> at NeurIPS 2022.</li>
-					<li><span class="label label-success">July 2022</span> I co-chair the <strong><a href="https://www.humancomputation.com/submit.html#wip"  target="_blank">Works-in-Progress Papers and Demonstration Track of HCOMP 2022</a></strong></li>
+					<li><span class="badge text-bg-success">July 2022</span> I co-organize the <strong><a href="https://humaneval-workshop.github.io/" target="_blank">Workshop on Human Evaluation of Generative Models</a></strong> at NeurIPS 2022.</li>
+					<li><span class="badge text-bg-success">July 2022</span> I co-chair the <strong><a href="https://www.humancomputation.com/submit.html#wip"  target="_blank">Works-in-Progress Papers and Demonstration Track of HCOMP 2022</a></strong></li>
 					
-					<li><span class="label label-success">June 2022</span> Received a <a href="https://research.facebook.com/blog/2022/8/announcing-the-winners-of-the-mephisto-dataset-collection-tool-request-for-proposals/" target="_blank">Research Award from <strong>Meta Research</strong></a> to explore new possibilities of the Mephisto Dataset Collection Tool.</li>
+					<li><span class="badge text-bg-success">June 2022</span> Received a <a href="https://research.facebook.com/blog/2022/8/announcing-the-winners-of-the-mephisto-dataset-collection-tool-request-for-proposals/" target="_blank">Research Award from <strong>Meta Research</strong></a> to explore new possibilities of the Mephisto Dataset Collection Tool.</li>
 					
-					<li><span class="label label-success">May 2022</span> Received an Unrestricted Gift from <strong>Adobe Research</strong> to support our work on figure captioning.</li>
+					<li><span class="badge text-bg-success">May 2022</span> Received an Unrestricted Gift from <strong>Adobe Research</strong> to support our work on figure captioning.</li>
 					
-					<li><span class="label label-success">May 2022</span> Crowd-AI Lab presented <a href="https://twitter.com/windx0303/status/1527380805357817856" target="_blank">two papers at the main conference of <strong>ACL 2022</strong></a>.</li>
+					<li><span class="badge text-bg-success">May 2022</span> Crowd-AI Lab presented <a href="https://twitter.com/windx0303/status/1527380805357817856" target="_blank">two papers at the main conference of <strong>ACL 2022</strong></a>.</li>
 
 					
-					<li><span class="label label-success">May 2022</span> Co-organized <a href="https://in2writing.glitch.me/" target="_blank">The First Workshop on Intelligent and Interactive Writing Assistants	(In2Writing)</a> at ACL 2022.</li>
+					<li><span class="badge text-bg-success">May 2022</span> Co-organized <a href="https://in2writing.glitch.me/" target="_blank">The First Workshop on Intelligent and Interactive Writing Assistants	(In2Writing)</a> at ACL 2022.</li>
 					
-					<li><span class="label label-success">April 2022</span> My group and I attended <a href="https://chi2022.acm.org/" target="_blank">CHI 2022</a> in person.</li>
+					<li><span class="badge text-bg-success">April 2022</span> My group and I attended <a href="https://chi2022.acm.org/" target="_blank">CHI 2022</a> in person.</li>
 					-->
 					<!--
-					<li><span class="label label-success">April 2022</span> Co-organized <a href="https://www.empathich.io/" target="_blank">EmpathiCH: Empathy-Centric Design At Scale</a> workshop at CHI 2022.</li>
+					<li><span class="badge text-bg-success">April 2022</span> Co-organized <a href="https://www.empathich.io/" target="_blank">EmpathiCH: Empathy-Centric Design At Scale</a> workshop at CHI 2022.</li>
 
-					<li><span class="label label-success">March 2022</span> Our paper on <a href="https://www.cell.com/patterns/fulltext/S2666-3899(22)00022-8" target="_blank">empowering local communities using artificial intelligence</a> is published in the Patterns journal.</li>
+					<li><span class="badge text-bg-success">March 2022</span> Our paper on <a href="https://www.cell.com/patterns/fulltext/S2666-3899(22)00022-8" target="_blank">empowering local communities using artificial intelligence</a> is published in the Patterns journal.</li>
 					-->
 					<!--
 					<li>2 papers were accepted by ACL 2022!</li>
@@ -656,27 +638,27 @@
 
 					<ul>
 						<!--
-						<li><span class="label label-primary">Fall 2022</span> IST361: Application Development Design Studio II</li>
+						<li><span class="badge text-bg-primary">Fall 2022</span> IST361: Application Development Design Studio II</li>
 						-->
-						<li><span class="label label-primary">Fall 2026</span> HCDD440: Human-Centered Design and Development Capstone Course</li>
-						<li><span class="label label-default">Fall 2025 &ndash; Spring 2026</span> <i>On sabbatical leave (no teaching)</i></li>
-						<li><span class="label label-default">Spring 2025</span> IST261: Application Development Design Studio I</li>
-						<li><span class="label label-default">Spring 2025</span> IST261: Application Development Design Studio I (World Campus)</li>
-						<li><span class="label label-default">Spring 2024</span> IST526: Development Tools and Visualizations for Human-Computer Interaction</li>
-						<li><span class="label label-default">Spring 2024</span> IST261: Application Development Design Studio I</li>
+						<li><span class="badge text-bg-primary">Fall 2026</span> HCDD440: Human-Centered Design and Development Capstone Course</li>
+						<li><span class="badge text-bg-secondary">Fall 2025 &ndash; Spring 2026</span> <i>On sabbatical leave (no teaching)</i></li>
+						<li><span class="badge text-bg-secondary">Spring 2025</span> IST261: Application Development Design Studio I</li>
+						<li><span class="badge text-bg-secondary">Spring 2025</span> IST261: Application Development Design Studio I (World Campus)</li>
+						<li><span class="badge text-bg-secondary">Spring 2024</span> IST526: Development Tools and Visualizations for Human-Computer Interaction</li>
+						<li><span class="badge text-bg-secondary">Spring 2024</span> IST261: Application Development Design Studio I</li>
 						
-						<li><span class="label label-default">Fall 2023</span> IST597: Intelligent and Interactive Writing Assistants</li>
-						<li><span class="label label-default">Fall 2023</span> IST402: Crowdsourcing & Crowd-AI Systems</li>
-						<li><span class="label label-default">Spring 2023</span> IST402: Crowdsourcing and Crowd-AI Systems</li>
-						<li><span class="label label-default">Fall 2022</span> IST261: Application Development Design Studio I</li>
-						<li><span class="label label-default">Spring 2022</span> IST361: Application Development Design Studio II</li>
-						<li><span class="label label-default">Spring 2022</span> IST261: Application Development Design Studio I</li>
-						<li><span class="label label-default">Fall 2021</span> <a href="https://tinyurl.com/CrowdClassFall2021" target="_blank">IST597: Crowdsourcing & Crowd-AI Systems</a></li>
-						<li><span class="label label-default">Spring 2021</span> IST361: Application Development Design Studio II</li>
-						<li><span class="label label-default">Fall 2020</span> IST261: Application Development Design Studio I</li>
-						<li><span class="label label-default">Spring 2020</span> <a href="http://crowdaiclass.org" target="_blank">IST402: Crowdsourcing and Crowd-AI Systems</a></li>
-						<li><span class="label label-default">Fall 2019</span> IST361: Application Development Design Studio II</li>
-						<li><span class="label label-default">Spring 2019</span> IST597: Crowdsourcing & Crowd-AI Systems</li>
+						<li><span class="badge text-bg-secondary">Fall 2023</span> IST597: Intelligent and Interactive Writing Assistants</li>
+						<li><span class="badge text-bg-secondary">Fall 2023</span> IST402: Crowdsourcing & Crowd-AI Systems</li>
+						<li><span class="badge text-bg-secondary">Spring 2023</span> IST402: Crowdsourcing and Crowd-AI Systems</li>
+						<li><span class="badge text-bg-secondary">Fall 2022</span> IST261: Application Development Design Studio I</li>
+						<li><span class="badge text-bg-secondary">Spring 2022</span> IST361: Application Development Design Studio II</li>
+						<li><span class="badge text-bg-secondary">Spring 2022</span> IST261: Application Development Design Studio I</li>
+						<li><span class="badge text-bg-secondary">Fall 2021</span> <a href="https://tinyurl.com/CrowdClassFall2021" target="_blank">IST597: Crowdsourcing & Crowd-AI Systems</a></li>
+						<li><span class="badge text-bg-secondary">Spring 2021</span> IST361: Application Development Design Studio II</li>
+						<li><span class="badge text-bg-secondary">Fall 2020</span> IST261: Application Development Design Studio I</li>
+						<li><span class="badge text-bg-secondary">Spring 2020</span> <a href="http://crowdaiclass.org" target="_blank">IST402: Crowdsourcing and Crowd-AI Systems</a></li>
+						<li><span class="badge text-bg-secondary">Fall 2019</span> IST361: Application Development Design Studio II</li>
+						<li><span class="badge text-bg-secondary">Spring 2019</span> IST597: Crowdsourcing & Crowd-AI Systems</li>
 					</ul>
 
 				</div>
@@ -852,7 +834,7 @@
             <div class="col-md-4">
                 <h2>Team</h2>
                 <p>This field deployment study of the "Chorus" system is part of a research study conducted by <strong>Prof. Jeffrey P. Bigham</strong> and his group at <strong>Carnegie Mellon University</strong>.</p>
-                <a class="btn btn-default" href="http://www.cs.cmu.edu/~jbigham/" target="_blank">More Info</a>
+                <a class="btn btn-outline-secondary" href="http://www.cs.cmu.edu/~jbigham/" target="_blank">More Info</a>
             </div>
             
             <div class="col-md-4">
@@ -863,7 +845,7 @@
                 <strong>Chorus: A Crowd-Powered Conversational Assistant.</strong>
                 In Proceedings of the ACM Symposium on User Interface Software and Technology (UIST 2013). St Andrews, UK. p151-162.
                 </p>
-                <a class="btn btn-default" href="pdf/chorus.pdf" target="_blank">PDF</a>
+                <a class="btn btn-outline-secondary" href="pdf/chorus.pdf" target="_blank">PDF</a>
             </div>
             
             <div class="col-md-4">
@@ -876,7 +858,7 @@
 				<a href='mailto:tinghaoh@cs.cmu.edu?Subject=[Chorus Chatbot]' target='_top'>tinghaoh@cs.cmu.edu</a> <br/ >
 				<a href='http://www.cs.cmu.edu/~tinghaoh/' target='_blank'>http://www.cs.cmu.edu/~tinghaoh/</a>
                 </p>
-                <a class="btn btn-default" href='mailto:tinghaoh@cs.cmu.edu?Subject=[Chorus Chatbot]' target='_top'>Send Email</a>
+                <a class="btn btn-outline-secondary" href='mailto:tinghaoh@cs.cmu.edu?Subject=[Chorus Chatbot]' target='_top'>Send Email</a>
             </div>
            
         </div>
@@ -897,11 +879,10 @@
     <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
+    <script src="js/bootstrap-5.3.8.bundle.min.js"></script>
 </body>
 
 </html>

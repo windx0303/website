@@ -1,0 +1,146 @@
+/* Keeps the site's original Bootstrap 3 look on top of Bootstrap 5.
+   Loaded right after bootstrap-5.3.8.min.css and before chorus.css. */
+
+:root{
+	--bs-body-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--bs-body-font-size: 14px;
+	--bs-body-line-height: 1.42857143;
+	--bs-body-color: #333;
+	--bs-link-color: #337ab7;
+	--bs-link-color-rgb: 51, 122, 183;
+	--bs-link-hover-color: #23527c;
+	--bs-link-hover-color-rgb: 35, 82, 124;
+}
+
+/* Links: no underline until hover */
+a{
+	text-decoration: none;
+}
+
+a:hover, a:focus{
+	text-decoration: underline;
+}
+
+/* Headings, paragraphs and lists */
+h1, h2, h3, h4, h5, h6{
+	font-weight: 500;
+	line-height: 1.1;
+	margin-bottom: 10px;
+}
+
+h1, h2, h3{ margin-top: 20px; }
+h4, h5, h6{ margin-top: 10px; }
+h1{ font-size: 36px; }
+h2{ font-size: 30px; }
+h3{ font-size: 24px; }
+h4{ font-size: 18px; }
+h5{ font-size: 14px; }
+h6{ font-size: 12px; }
+
+p, ul, ol{
+	margin-bottom: 10px;
+}
+
+ul ul, ol ol, ul ol, ol ul{
+	margin-bottom: 0;
+}
+
+hr{
+	margin: 20px 0;
+	border: 0;
+	border-top: 1px solid #eee;
+	opacity: 1;
+}
+
+/* Layout: Bootstrap 3 widths and gutters */
+.row{
+	--bs-gutter-x: 30px;
+}
+
+@media (min-width: 1200px){
+	.container{ max-width: 1170px; }
+}
+
+/* Navbar */
+#chorus-nav{
+	padding: 10px;
+}
+
+#chorus-nav .navbar-brand{
+	font-size: 24px;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 575px){
+	#chorus-nav .navbar-brand{ font-size: 20px; }
+}
+
+#chorus-nav .navbar-nav{
+	padding: 15px 0;
+}
+
+#chorus-nav .nav-link{
+	color: #777;
+	padding: 15px;
+	line-height: 20px;
+}
+
+#chorus-nav .nav-link:hover,
+#chorus-nav .nav-link:focus{
+	color: #333;
+	text-decoration: none;
+}
+
+#chorus-nav .nav-link.active{
+	color: #555;
+	background-color: #e7e7e7;
+}
+
+/* Badges styled like Bootstrap 3 labels */
+.badge{
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	padding: .2em .6em .3em;
+	border-radius: .25em;
+}
+
+.badge.text-bg-success{ background-color: #5cb85c !important; color: #fff !important; }
+.badge.text-bg-info{ background-color: #5bc0de !important; color: #fff !important; }
+.badge.text-bg-primary{ background-color: #337ab7 !important; color: #fff !important; }
+.badge.text-bg-secondary{ background-color: #777 !important; color: #fff !important; }
+.badge.text-bg-warning{ background-color: #f0ad4e !important; color: #fff !important; }
+.badge.text-bg-danger{ background-color: #d9534f !important; color: #fff !important; }
+
+.text-primary{
+	color: #337ab7 !important;
+}
+
+/* Alerts */
+.alert{
+	padding: 15px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+
+.alert-success{
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+.alert-warning{
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+}
+
+.alert h4, .alert h5{
+	color: inherit;
+}
+
+footer{
+	padding: 30px 0;
+}
