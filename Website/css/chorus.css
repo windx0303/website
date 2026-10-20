@@ -259,12 +259,12 @@ li.chorus-nav{
 	padding: 4px;
 }
 
-/* Research sponsors strip (homepage) */
-#sponsors{
+/* Research funding strip (homepage). Avoid the word "sponsor" in names: ad blockers hide such elements. */
+#funding{
 	margin-top: 10px;
 }
 
-.sponsors-title{
+.funding-title{
 	text-align: center;
 	color: #777;
 	font-size: 13px;
@@ -273,7 +273,7 @@ li.chorus-nav{
 	margin-bottom: 12px;
 }
 
-.sponsor-logos{
+.funding-logos{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -281,7 +281,7 @@ li.chorus-nav{
 	gap: 18px 36px;
 }
 
-.sponsor-logos img{
+.funding-logos img{
 	height: 34px;
 	width: auto;
 	filter: grayscale(100%);
@@ -289,21 +289,21 @@ li.chorus-nav{
 	transition: filter .2s, opacity .2s;
 }
 
-.sponsor-logos img.logo-square{ height: 52px; }
-.sponsor-logos img.logo-wide{ height: 28px; }
+.funding-logos img.logo-square{ height: 52px; }
+.funding-logos img.logo-wide{ height: 28px; }
 
-.sponsor-logos a:hover img{
+.funding-logos a:hover img{
 	filter: none;
 	opacity: 1;
 }
 
-.sponsor-logos .sponsor-text{
+.funding-logos .funding-text{
 	color: #777;
 	font-weight: bold;
 	font-size: 15px;
 }
 
-.sponsor-logos .sponsor-text:hover{
+.funding-logos .funding-text:hover{
 	color: #20558a;
 	text-decoration: none;
 }
