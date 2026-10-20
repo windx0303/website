@@ -137,6 +137,12 @@ hr{
 	border-color: #faebcc;
 }
 
+.alert-secondary{
+	color: #333;
+	background-color: #f5f5f5;
+	border-color: #e3e3e3;
+}
+
 .alert h4, .alert h5{
 	color: inherit;
 }

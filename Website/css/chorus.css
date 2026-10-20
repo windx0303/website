@@ -259,6 +259,55 @@ li.chorus-nav{
 	padding: 4px;
 }
 
+/* Research sponsors strip (homepage) */
+#sponsors{
+	margin-top: 10px;
+}
+
+.sponsors-title{
+	text-align: center;
+	color: #777;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	margin-bottom: 12px;
+}
+
+.sponsor-logos{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 18px 36px;
+}
+
+.sponsor-logos img{
+	height: 34px;
+	width: auto;
+	filter: grayscale(100%);
+	opacity: .7;
+	transition: filter .2s, opacity .2s;
+}
+
+.sponsor-logos img.logo-square{ height: 52px; }
+.sponsor-logos img.logo-wide{ height: 28px; }
+
+.sponsor-logos a:hover img{
+	filter: none;
+	opacity: 1;
+}
+
+.sponsor-logos .sponsor-text{
+	color: #777;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.sponsor-logos .sponsor-text:hover{
+	color: #20558a;
+	text-decoration: none;
+}
+
 #profile-photo-caption{
 	text-align: center;
 	font-size: 12px;
