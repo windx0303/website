@@ -308,6 +308,12 @@ li.chorus-nav{
 	text-decoration: none;
 }
 
+/* Research Highlights: link to the lab playlist under the player */
+.video-list-head{
+	margin: 8px 0 0 0;
+	text-align: right;
+}
+
 /* Teaching: highlight the term in progress */
 .current-term{
 	background-color: #fcf8e3;
